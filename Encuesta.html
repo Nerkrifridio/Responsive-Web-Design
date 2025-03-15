@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <body>
+      <h1 id="title"> Test form:</h1>
+      <p id="description">This form is a test to <em>certify</em> the mastery of <strong>HTML-CSS.</strong></p>
+      <form id="survey-form">
+<fieldset>
+<label id="name-label">Name:<input type="text" id="name" placeholder="Enter your name" required> </label>
+<label id="email-label"> Email:<input type="email" id="email" placeholder="Enter your email" required></label>
+<label id="number-label"> Number:<input type="number" id="number" placeholder="Enter your phone number" min="6" max="6"></label>
+</fieldset>
+<fieldset>
+  <h2>What is your occupation?</h2>
+<select id="dropdown"> 
+  <option>Select one</option>
+  <option>Studying</option>
+  <option>Working</option>
+  <option>Unemployed</option>
+</select>
+</fieldset>
+<fieldset>
+  <h2> Do you like programming? </h2>
+<label> Yes <input type="radio" name="radio" value="yes" checked></label>
+<label> No <input type="radio" name="radio" value="no" checked></label>
+<label> More or less <input type="radio" name="radio" value="more-or-less" checked></label>
+</fieldset>
+<fieldset>
+  <h2>Why do you want to learn to code?</h2>
+  <label>Videogames.<input type="checkbox" id="videogames" value="videogames"></label>
+  <label>Software development.<input type="checkbox" id="software" value="software"></label>
+   <label>For hobby.<input type="checkbox" id="hobby" value="hobby" ></label>
+    <label>Hack big corporations. <input type="checkbox" id="hack" value="hack"></label>
+</fieldset>
+<fieldset>
+  <textarea id="additional-comentaries" name="additional-comentaries" rows="5" colms="50" placeholder="Let some comentaries"></textarea>
+
+<button type="submit" id="submit"> Submit</button>
+</form>
+</body>
+</head>
