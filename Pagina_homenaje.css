@@ -1,0 +1,28 @@
+body {
+    background-color:#DFF1AB ;
+  }
+  h1 {
+    text-align:center;
+    color: #627D52;
+    font-family: verdana;
+  }
+  
+  .img {
+    max-width:100%;
+    height:auto;
+    display:block;
+  justify-content:center;
+  align-items:center;
+  }
+  #image {
+    max-width:100%;
+    display:block;
+  }
+  legend {
+    text-align:center;
+    color:#32511F ;
+  }
+  p {
+    text-align:center;font-size:22;
+    color:#32511F ;
+  }

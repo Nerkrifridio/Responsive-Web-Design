@@ -1,0 +1,29 @@
+
+#title {
+    font-size:32;
+    color:rgb(70,201,176);
+    text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    h2 {
+     color:rgb(69,179,157);
+     font-size: 22;
+     text-align: center;
+    }
+    fieldset {
+    padding:45px;
+    }
+    
+    select {
+      text-align:center;
+      margin: 10px 0 0 0;
+      width: 100%;
+      min-height: 2em;
+    }
+    
+    body {
+      background:#E8F6F3;
+    }
+    
